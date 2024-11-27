@@ -14,24 +14,21 @@
   "previousButtonLabel": "Previous",
   "doneButtonLabel": "Done",
   "steps": [
-    {        "title": "Search",
-        "description": "Use this field to perform a global search.",
+    {  
       "element": ".fi-global-search-field",
       "popover": {
         "title": "Search",
         "description": "Use this field to perform a global search."
       }
     },
-    { "title": "Search",
-        "description": "Use this field to perform a global search.",
+    { 
       "element": ".dd-main-nav",
       "popover": {
         "title": "Main Navigation",
         "description": "Navigate through the main sections of the application."
       }
     },
-    { "title": "Search",
-        "description": "Use this field to perform a global search.",
+    { 
       "element": ".dd-main-nav",
       "popover": {
         "title": "Extra Options",
