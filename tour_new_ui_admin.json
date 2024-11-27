@@ -24,7 +24,6 @@
   "doneButtonLabel": "Done",
   "steps": [
     {
-      "make":".dd-main-nav li.child:nth-of-type(1)"
       "title": "New UI",
       "description": "Lets get familiar with the new UI MANAGER",
       "uncloseable": false,
