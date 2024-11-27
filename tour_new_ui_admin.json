@@ -16,6 +16,7 @@
   "steps": [
     {
       "make": ".dd-main-nav",
+      "element": ".dd-main-nav",   
       "title": "New UI",
       "description": "Lets get familiar with the new UI MANAGER",
       "uncloseable": false,
