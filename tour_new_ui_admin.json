@@ -16,7 +16,7 @@
   "steps": [
     {
       "title": "Welcome to your new navigation experience",
-      "description": "We’ve made some updates on how you navigate the platform! Let’s take a quick tour to introduce the new layout and show you where to find everything you need.",
+      "description": "We’ve made some updates on how you navigate the platform! Let’s take a quick tour to show you where to find everything you need.",
       "uncloseable": false,
       "events": {
         "clickOnNext": "body",
