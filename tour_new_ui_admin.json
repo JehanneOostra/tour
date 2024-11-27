@@ -1,10 +1,7 @@
 {
   "id": "new-ui",
   "route": "/{tenant}/insights/overview",
-  "colors": [
-    "",
-    ""
-  ],
+  "colors": ["#FF5733", "#33FF57"], 
   "alwaysShow": true,
   "visible": true,
   "uncloseable": true,
@@ -15,50 +12,24 @@
   "doneButtonLabel": "Done",
   "steps": [
     {
-      "title": "New UI",
-      "description": "Lets get familiar with the new UI",
-      "uncloseable": false,
-      "events": {
-        "clickOnNext": "body",
-        "notifyOnNext": {
-          "title": "Hello World !",
-          "body": "Woaw ! I'm from a Json file !",
-          "color": "success"
-        },
-        "redirectOnNext": {
-          "url": "https://filamentphp.com",
-          "newTab": true
-        },
-        "dispatchOnNext": [
-          "open-modal",
-          {
-            "id": "edit-user"
-          }
-        ]
+      "element": ".fi-global-search-field",
+      "popover": {
+        "title": "Search",
+        "description": "Use this field to perform a global search."
       }
     },
     {
-      "element": ".fi-global-search-field",
-      "title": "Update !",
-      "description": "Yeah ! And I'm from the same json file !",
-      "uncloseable": false,
-      "events": {
-        "clickOnNext": "body",
-        "notifyOnNext": {
-          "title": "Hello World !",
-          "body": "Woaw ! I'm from a Json file !",
-          "color": "success"
-        },
-        "redirectOnNext": {
-          "url": "https://ddplatform.localdev/1/account-settings/job-ad-structure",
-          "newTab": false
-        },
-        "dispatchOnNext": [
-          "open-modal",
-          {
-            "id": "edit-user"
-          }
-        ]
+      "element": ".dd-main-nav",
+      "popover": {
+        "title": "Main Navigation",
+        "description": "Navigate through the main sections of the application."
+      }
+    },
+    {
+      "element": ".dd-main-nav",
+      "popover": {
+        "title": "Extra Options",
+        "description": "Access additional settings and features."
       }
     }
   ]
