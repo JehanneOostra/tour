@@ -15,7 +15,7 @@
   "doneButtonLabel": "Done",
   "steps": [
     {
-      "title": "Welcome to your new navigation experience",
+      "title": "A new navigation experience",
       "description": "We’ve made some updates on how you navigate the platform!\n Let’s take a quick tour to show you where to find everything you need.",
       "uncloseable": false,
       "events": {
