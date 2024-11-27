@@ -16,7 +16,7 @@
   "steps": [
     {
       "title": "New UI",
-      "description": "Lets get familiar with the new UI",
+      "description": "Lets get familiar with the new UI MANAGER",
       "uncloseable": false,
       "events": {
         "clickOnNext": "body",
