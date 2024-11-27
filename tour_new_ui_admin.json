@@ -7,7 +7,70 @@
     ],
     "alwaysShow": true,
     "visible": true,
-    "uncloseable": true,
+    "uncloseable": true,{
+  "id": "new-ui",
+  "route": "/{tenant}/insights/overview",
+  "colors": [
+    "",
+    ""
+  ],
+  "alwaysShow": true,
+  "visible": true,
+  "uncloseable": true,
+  "ignoreRoutes": true,
+  "disableEvents": true,
+  "nextButtonLabel": "Next",
+  "previousButtonLabel": "Previous",
+  "doneButtonLabel": "Done",
+  "steps": [
+    {
+      "title": "New UI",
+      "description": "Lets get familiar with the new UI MANAGER",
+      "uncloseable": false,
+      "events": {
+        "clickOnNext": "body",
+        "notifyOnNext": {
+          "title": "Hello World !",
+          "body": "Woaw ! I'm from a Json file !",
+          "color": "success"
+        },
+        "redirectOnNext": {
+          "url": "https://filamentphp.com",
+          "newTab": true
+        },
+        "dispatchOnNext": [
+          "open-modal",
+          {
+            "id": "edit-user"
+          }
+        ]
+      }
+    },
+    {
+      "title": "An other one !",
+      "description": "Yeah ! And I'm from the same json file !",
+      "uncloseable": false,
+      "events": {
+        "clickOnNext": "body",
+        "notifyOnNext": {
+          "title": "Hello World !",
+          "body": "Woaw ! I'm from a Json file !",
+          "color": "success"
+        },
+        "redirectOnNext": {
+          "url": "https://ddplatform.localdev/1/account-settings/job-ad-structure",
+          "newTab": false
+        },
+        "dispatchOnNext": [
+          "open-modal",
+          {
+            "id": "edit-user"
+          }
+        ]
+      }
+    }
+  ]
+}
     "ignoreRoutes": true,
     "disableEvents": true,
     "nextButtonLabel": "Next",
