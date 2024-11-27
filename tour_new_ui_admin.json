@@ -41,9 +41,6 @@
        }
     },
     { 
-       "events": {
-        "clickOnNext": ".fi-avatar"
-        },
       "element": ".fi-user-menu .fi-dropdown-panel",
       "popover": {
         "title": "Manage Corporate Terminology, Users and Teams",
