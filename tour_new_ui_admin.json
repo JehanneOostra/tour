@@ -41,11 +41,13 @@
         "description": "Quickly locate any text entry or functionality across the platform. Simply type what you're looking for, and navigate directly to the right place in seconds."
       }
     { 
-      clickOnNext('.fi-avatar')
-      "element": "fi-global-search-field",
+       "events": {
+        "clickOnNext": ".fi-avatar"
+        },
+      "element": ".fi-user-menu .fi-dropdown-panel",
       "popover": {
-        "title": "Introducing our new Search Bar!",
-        "description": "Quickly locate any text entry or functionality across the platform. Simply type what you're looking for, and navigate directly to the right place in seconds."
+        "title": "Manage Corporate Terminology, Users and Teams",
+        "description": "Corporate Terminology and User Management are now in Account Settings. Add phrases to exclude from bias analysis, invite new users, and manage teams."
       }
     }
   ]
