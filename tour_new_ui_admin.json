@@ -61,6 +61,56 @@
           }
         ]
       }
+    },
+ {
+      "make": ".dd-main-nav>li.child:nth-of-type(2)",
+      "element": ".dd-main-nav>li.child:nth-of-type(2)",
+      "title": "Find here your Employer Branding Text Entries",
+      "description": "Explore the Employer Branding section to manage and access all your employer branding text entries.",
+      "uncloseable": false,
+      "events": {
+        "clickOnNext": "body",
+        "notifyOnNext": {
+          "title": "Hello World !",
+          "body": "Woaw ! I'm from a Json file !",
+          "color": "success"
+        },
+        "redirectOnNext": {
+          "url": "https://ddplatform.localdev/1/account-settings/job-ad-structure",
+          "newTab": false
+        },
+        "dispatchOnNext": [
+          "open-modal",
+          {
+            "id": "edit-user"
+          }
+        ]
+      }
+    },
+       {
+      "make": ".fi-global-search-field",
+      "element": ".fi-global-search-field",
+      "title": "Introducing our new Search Bar!",
+      "description": "Quickly locate any text entry or functionality across the platform. Simply type what you're looking for, and navigate directly to the right place.",
+      "uncloseable": false,
+      "events": {
+        "clickOnNext": ".fi-avatar",
+        "notifyOnNext": {
+          "title": "Hello World !",
+          "body": "Woaw ! I'm from a Json file !",
+          "color": "success"
+        },
+        "redirectOnNext": {
+          "url": "https://ddplatform.localdev/1/account-settings/job-ad-structure",
+          "newTab": false
+        },
+        "dispatchOnNext": [
+          "open-modal",
+          {
+            "id": "edit-user"
+          }
+        ]
+      }
     }
   ]
 }
