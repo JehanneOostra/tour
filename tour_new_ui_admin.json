@@ -15,8 +15,8 @@
   "doneButtonLabel": "Done",
   "steps": [
     {
-      "title": "Introduction to our new navigation experience",
-      "description": "Let us give you a quick tour to show you where everything is.",
+      "title": "New UI",
+      "description": "Lets get familiar with the new UI",
       "uncloseable": false,
       "events": {
         "clickOnNext": "body",
@@ -37,14 +37,6 @@
         ]
       }
     },
-      {
-      "title": "Introduction to our new navigation experience",
-      "description": "Let us give you a quick tour to show you where everything is.",
-      "uncloseable": false,
-    },
-    { 
-      "element": ".dd-main-nav li.child:nth-of-type(1)", 
-    "popover": { "title": "Import the Library", "description": "It works the same in vanilla JavaScript as well as frameworks.", "side": "bottom", "align": "start" }},
     {
       "title": "An other one !",
       "description": "Yeah ! And I'm from the same json file !",
