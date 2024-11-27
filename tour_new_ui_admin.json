@@ -15,8 +15,8 @@
   "doneButtonLabel": "Done",
   "steps": [
     {
-      "title": "New UI",
-      "description": "Lets get familiar with the new UI",
+      "title": "Welcome to your new navigation experience",
+      "description": "We’ve made some updates on how you navigate the platform! Let’s take a quick tour to introduce the new layout and show you where to find everything you need.",
       "uncloseable": false,
       "events": {
         "clickOnNext": "body",
