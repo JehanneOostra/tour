@@ -42,7 +42,9 @@
       "description": "Let us give you a quick tour to show you where everything is.",
       "uncloseable": false,
     },
-    { element: 'code .line:nth-child(1)', popover: { title: 'Import the Library', description: 'It works the same in vanilla JavaScript as well as frameworks.', side: "bottom", align: 'start' }},
+    { 
+      "element": '.dd-main-nav li.child:nth-of-type(1)', 
+    "popover": { "title": "Import the Library", "description": "It works the same in vanilla JavaScript as well as frameworks.", "side": "bottom", "align": "start" }},
     {
       "title": "An other one !",
       "description": "Yeah ! And I'm from the same json file !",
