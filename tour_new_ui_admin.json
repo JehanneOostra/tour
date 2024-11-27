@@ -15,8 +15,8 @@
   "doneButtonLabel": "Done",
   "steps": [
     {
-      "title": "A new navigation experience",
-      "description": "We’ve made some updates on how you navigate the platform!\n Let’s take a quick tour to show you where to find everything you need.",
+      "title": "Introduction to our new navigation experience",
+      "description": "Let us give you a quick tour to show you where everything is.",
       "uncloseable": false,
       "events": {
         "clickOnNext": "body",
@@ -37,6 +37,12 @@
         ]
       }
     },
+      {
+      "title": "Introduction to our new navigation experience",
+      "description": "Let us give you a quick tour to show you where everything is.",
+      "uncloseable": false,
+    },
+    { element: 'code .line:nth-child(1)', popover: { title: 'Import the Library', description: 'It works the same in vanilla JavaScript as well as frameworks.', side: "bottom", align: 'start' }},
     {
       "title": "An other one !",
       "description": "Yeah ! And I'm from the same json file !",
