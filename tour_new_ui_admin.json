@@ -20,11 +20,6 @@
       "uncloseable": false,
       "events": {
         "clickOnNext": "body",
-        "notifyOnNext": {
-          "title": "Hello World !",
-          "body": "Woaw ! I'm from a Json file !",
-          "color": "success"
-        },
         "redirectOnNext": {
           "url": "https://filamentphp.com",
           "newTab": true
