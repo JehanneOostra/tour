@@ -38,6 +38,7 @@
       }
     },
     {
+      "element": ".dd-main-nav li.child:nth-of-type(1)"
       "title": "An other one !",
       "description": "Yeah ! And I'm from the same json file !",
       "uncloseable": false,
