@@ -18,7 +18,7 @@
       "title": "A new navigation experience",
       "description": "Let us give you a quick tour to show you where everything is.",
       "uncloseable": false,
-        "events": {
+      "events": {
         "clickOnNext": "body",
         "notifyOnNext": {
           "title": "Hello World !",
