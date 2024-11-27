@@ -20,17 +20,6 @@
       "title": "New UI",
       "description": "Lets get familiar with the new UI MANAGER",
       "uncloseable": false,
-      "events": {
-        "clickOnNext": "body",
-        "notifyOnNext": {
-          "title": "Hello World !",
-          "body": "Woaw ! I'm from a Json file !",
-          "color": "success"
-        },
-        "redirectOnNext": {
-          "url": "https://filamentphp.com",
-          "newTab": true
-        },
         "dispatchOnNext": [
           "open-modal",
           {
