@@ -1,7 +1,10 @@
 {
   "id": "new-ui",
   "route": "/{tenant}/insights/overview",
-  "colors": ["#FF5733", "#33FF57"], 
+  "colors": [
+    "",
+    ""
+  ],
   "alwaysShow": true,
   "visible": true,
   "uncloseable": true,
