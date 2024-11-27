@@ -1,5 +1,5 @@
 {
-  "id": "new-ui",
+  "id": "new-ui-admin",
   "route": "/{tenant}/insights/overview",
   "colors": [
     "",
