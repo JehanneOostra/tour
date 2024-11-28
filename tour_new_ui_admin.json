@@ -25,6 +25,10 @@
           "body": "Woaw ! I'm from a Json file !",
           "color": "success"
         },
+          "redirectOnNext": {
+          "url": "https://newuit.developdiverse.com/{tenant}/insights/overview",
+          "newTab": false
+        },
         "dispatchOnNext": [
           "open-modal",
           {
