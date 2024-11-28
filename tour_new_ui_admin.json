@@ -40,7 +40,7 @@
     {
       "make": ".dd-main-nav li.child:nth-of-type(1)",
       "element": ".dd-main-nav li.child:nth-of-type(1)",
-      "title": "A new Jobs section with Jobs and Templates",
+      "title": "A new Jobs section with Templates",
       "description": "Here, you can easily access all your job ad text entries and the templates. This is where you can find everything related to jobs.",
       "uncloseable": false,
       "events": {
