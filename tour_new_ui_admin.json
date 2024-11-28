@@ -5,7 +5,7 @@
         "",
         ""
     ],
-  "alwaysShow": true,
+  "alwaysShow": false,
   "visible": true,
   "uncloseable": true,
   "ignoreRoutes": true,
