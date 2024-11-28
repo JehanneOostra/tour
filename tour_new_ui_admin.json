@@ -25,8 +25,8 @@
           "body": "Woaw ! I'm from a Json file !",
           "color": "success"
         },
-          "redirectOnNext": {
-          "url": "https://newuit.developdiverse.com/{tenant}/insights/overview",
+        "redirectOnNext": {
+          "url": "https://ddplatform.localdev/1/account-settings/job-ad-structure",
           "newTab": false
         },
         "dispatchOnNext": [
